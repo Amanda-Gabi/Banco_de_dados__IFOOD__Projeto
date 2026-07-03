@@ -25,7 +25,6 @@ CREATE TABLE item_cardapio (
     nome VARCHAR(100) NOT NULL,
     descricao TEXT,
     preco DECIMAL(8,2) NOT NULL CHECK (preco > 0),
-    imagem_url VARCHAR(255),
     disponivel BOOLEAN DEFAULT TRUE,
     FOREIGN KEY (id_estabelecimento) 
         REFERENCES estabelecimento(id_estabelecimento)
