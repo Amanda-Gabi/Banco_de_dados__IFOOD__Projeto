@@ -21,15 +21,15 @@ Renata Galvão -
 Banco_de_dados__IFOOD__Projeto/
 │
 ├── images/
-│ ├── logo_ifood.png
+│   ├── logo_ifood.png
 │
 ├── migrations/
-│ ├── 001_inicial_IFOOD.sql
-│ ├── 02.sistema_pedidos.sql
-│ ├── 03_criando_geolocalização_e_avaliação.sql
-│ ├── 04.adicionando_verificação_tabelas.sql
-│ ├── 05.preenchendo_lacunas.sql
-│ ├── ...
+│   ├── 001_inicial_IFOOD.sql
+│   ├── 02_sistema_pedidos.sql
+│   ├── 03_criando_geolocalizacao_e_avaliacao.sql
+│   ├── 04_adicionando_verificacao_tabelas.sql
+│   ├── 05_preenchendo_lacunas.sql
+│   ├── ...
 |
 └── README.md
 
