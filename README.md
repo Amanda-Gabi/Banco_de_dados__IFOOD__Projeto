@@ -33,16 +33,21 @@ Banco_de_dados__IFOOD__Projeto/
 │   ├── 05_preenchendo_lacunas.sql
 │   ├── ...
 |
-└── README.md
+├── README.md
+└── database.sql
+
 ```
 
 # Como executar as migrações
-```text
-1. Clone esse repositório
-2. Acesse o [Supabase](https://supabase.com)
-3. Crie um novo projeto
-4. No menu lateral, clique em **SQL Editor**
-5. Clique em **New query**
-6.
-```
+1. Abra o arquivo `database.sql` que está na raiz do projeto
+2. Copie todo o conteúdo
+3. Acesse o [Supabase](https://supabase.com)
+4. Crie um novo projeto
+5. No menu lateral, clique em **SQL Editor**
+6. Clique em **New query**
+7. Cole o conteúdo copiado
+8. Clique em Run
+   
+> ⚠️ O arquivo `database.sql` já contém todas as migrações na ordem correta. Basta executar uma única vez!
+
 
