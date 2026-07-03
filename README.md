@@ -13,11 +13,14 @@ Este repositório contém a modelagem do banco de dados do aplicativo **iFood**,
 - **Git e GitHub**: controle e versionamento dos códigos SQL da modelagem
 
 # Discentes
+```text
 Amanda Gabriella S. B. do Nascimento - 202411140035
 Anderson Silva - 
 Renata Galvão -
+```
 
 # Estrutura do Projeto
+```text
 Banco_de_dados__IFOOD__Projeto/
 │
 ├── images/
@@ -32,13 +35,15 @@ Banco_de_dados__IFOOD__Projeto/
 │   ├── ...
 |
 └── README.md
+```
 
 # Como executar as migrações
-
+```text
 1. Clone esse repositório
 2. Acesse o [Supabase](https://supabase.com)
 3. Crie um novo projeto
 4. No menu lateral, clique em **SQL Editor**
 5. Clique em **New query**
-6. 
+6.
+```
 
