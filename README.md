@@ -13,11 +13,10 @@ Este repositório contém a modelagem do banco de dados do aplicativo **iFood**,
 - **Git e GitHub**: controle e versionamento dos códigos SQL da modelagem
 
 # Discentes
-```text
-Amanda Gabriella S. B. do Nascimento - 202411140035
-Anderson Silva - 
-Renata Galvão -
-```
+- Amanda Gabriella S. B. do Nascimento - 202411140035
+- Anderson Silva - 
+- Renata Galvão -
+
 
 # Estrutura do Projeto
 ```text
