@@ -1,0 +1,11 @@
+CREATE INDEX idx_usuario_email ON usuario(email);
+CREATE INDEX idx_estab_cnpj ON estabelecimento(cnpj);
+CREATE INDEX idx_estab_status ON estabelecimento(status);
+CREATE INDEX idx_pedido_usuario ON pedido(id_usuario);
+CREATE INDEX idx_pedido_status ON pedido(status);
+CREATE INDEX idx_pedido_data ON pedido(data_pedido);
+CREATE INDEX idx_item_cardapio_estab ON item_cardapio(id_estabelecimento);
+CREATE INDEX idx_entregador_status ON entregador(status);
+CREATE INDEX idx_endereco_cep ON endereco(cep);
+CREATE INDEX idx_avaliacao_estabelecimento ON avaliacao(id_estabelecimento);
+CREATE INDEX idx_entrega_status ON entrega(status);
