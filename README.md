@@ -15,7 +15,7 @@ Este repositório contém a modelagem do banco de dados do aplicativo **iFood**,
 # Discentes
 - Amanda Gabriella S. B. do Nascimento - 202411140035
 - Anderson Silva - 
-- Renata Galvão -
+- Renata Galvão da Silva - 202311140050
 
 
 # Estrutura do Projeto
