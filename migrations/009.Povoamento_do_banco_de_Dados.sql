@@ -277,21 +277,3 @@ INSERT INTO horario_especial (id_estabelecimento, data_especial, horario_abertur
 (2, '2026-12-31', '18:00:00', '22:00:00', 'Véspera de Ano Novo - Horário Reduzido'),
 (4, '2026-06-24', '08:00:00', '14:00:00', 'Feriado de São João - Funcionamento até 14h'),
 (5, '2026-06-24', '10:00:00', '15:00:00', 'Feriado de São João - Funcionamento especial');
-
--- ============================================
--- CONSULTA: USUÁRIO COM MAIS PEDIDOS CANCELADOS EM BELÉM E REGIÃO
--- ============================================
-SELECT 
-    u.id_usuario,
-    u.nome,
-    u.email,
-    COUNT(p.id_pedido) AS total_pedidos_cancelados,
-    array_agg(p.id_pedido) AS pedidos_cancelados,
-    array_agg(e.cidade) AS cidades
-FROM usuario u
-JOIN pedido p ON u.id_usuario = p.id_usuario
-JOIN endereco e ON p.id_endereco = e.id_endereco
-WHERE p.status = 'cancelado'
-  AND e.cidade IN ('Belém', 'Ananindeua', 'Marituba')
-GROUP BY u.id_usuario, u.nome, u.email
-ORDER BY total_pedidos_cancelados DESC;
