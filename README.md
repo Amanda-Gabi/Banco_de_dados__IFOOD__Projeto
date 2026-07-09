@@ -1,3 +1,8 @@
+<img width="1060" height="175" alt="image" src="https://github.com/user-attachments/assets/6eda2b2e-af9d-4117-b018-9f14764a1384" />
+
+
+
+
 # Modelagem de banco de dados do iFood - Projeto de Disciplina
 O iFood é o maior aplicativo de delivery de comida do Brasil. Através dele,o usuário faz pedidos 
 em restaurantes parceiros cadastrados na plataforma, que são preparados e entregues no endereço escolhido. 
@@ -21,9 +26,6 @@ Este repositório contém a modelagem do banco de dados do aplicativo **iFood**,
 # Estrutura do Projeto
 ```text
 Banco_de_dados__IFOOD__Projeto/
-│
-├── images/
-│   ├── logo_ifood.png
 │
 ├── migrations/
 │   ├── 001_inicial_IFOOD.sql
